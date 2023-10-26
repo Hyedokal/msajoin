@@ -33,4 +33,13 @@ public class Order {
     public void setItemName(String itemName) {
         this.itemName = itemName;
     }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "userId=" + userId +
+                ", itemName='" + itemName + '\'' +
+                ", count=" + count +
+                '}';
+    }
 }

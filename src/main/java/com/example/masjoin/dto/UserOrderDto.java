@@ -46,6 +46,11 @@ public class UserOrderDto {
 
     @Override
     public String toString() {
-        return "userId : " + userId + "age : " + age + "name : " + name;
+        return "UserOrderDto{" +
+                "userId=" + userId +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", orderList=" + orderList +
+                '}';
     }
 }
